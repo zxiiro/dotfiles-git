@@ -1,0 +1,18 @@
+[user]
+	name = Thanh Ha
+	email = zxiiro@linux.com
+	signingkey = 616E3180
+[commit]
+	gpgsign = true
+[gitreview]
+	username = zxiiro
+[pull]
+	rebase = true
+[includeIf "gitdir:~/git/acumos/"]
+	path = .gitconfig-lf
+[includeIf "gitdir:~/git/lf/"]
+	path = .gitconfig-lf
+[includeIf "gitdir:~/git/odl/"]
+	path = .gitconfig-lf
+[includeIf "gitdir:~/git/onap/"]
+	path = .gitconfig-lf
