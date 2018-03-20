@@ -10,6 +10,8 @@
 	rebase = true
 [includeIf "gitdir:~/git/acumos/"]
 	path = .gitconfig-lf
+[includeIf "gitdir:~/git/edgex/"]
+	path = .gitconfig-lf
 [includeIf "gitdir:~/git/lf/"]
 	path = .gitconfig-lf
 [includeIf "gitdir:~/git/odl/"]
