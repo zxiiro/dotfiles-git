@@ -14,6 +14,8 @@
 	path = .gitconfig-lf
 [includeIf "gitdir:~/git/lf/"]
 	path = .gitconfig-lf
+[includeIf "gitdir:~/git/mpsf/"]
+	path = .gitconfig-lf
 [includeIf "gitdir:~/git/odl/"]
 	path = .gitconfig-lf
 [includeIf "gitdir:~/git/onap/"]
