@@ -20,3 +20,5 @@
 	path = .gitconfig-lf
 [includeIf "gitdir:~/git/onap/"]
 	path = .gitconfig-lf
+[includeIf "gitdir:~/git/git.opendaylight.org/"]
+	path = .gitconfig-lf
