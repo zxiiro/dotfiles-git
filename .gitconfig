@@ -26,6 +26,8 @@
 	path = .gitconfig-lf
 [includeIf "gitdir:~/src/gerrit.linuxfoundation.org/"]
 	path = .gitconfig-lf
+[includeIf "gitdir:~/src/gerrit.onap.org/"]
+	path = .gitconfig-lf
 [includeIf "gitdir:~/src/git.opendaylight.org/"]
 	path = .gitconfig-lf
 [includeIf "gitdir:~/src/github.com/AcademySoftwareFoundation/"]
