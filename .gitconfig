@@ -20,6 +20,8 @@
 	path = .gitconfig-lf
 [includeIf "gitdir:~/git/onap/"]
 	path = .gitconfig-lf
+[includeIf "gitdir:~/src/gerrit.acumos.org/"]
+	path = .gitconfig-lf
 [includeIf "gitdir:~/src/gerrit.akraino.org/"]
 	path = .gitconfig-lf
 [includeIf "gitdir:~/src/gerrit.hyperledger.org/"]
