@@ -15,3 +15,5 @@
 	branch = false
 [merge]
 	tool = smerge
+[core]
+	editor = subl -n -w
