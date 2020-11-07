@@ -8,9 +8,8 @@
 	username = zxiiro
 [pull]
 	rebase = true
-[includeIf "gitdir:~/src/lumina/"]
-	path = .gitconfig-lumina
-
+[includeIf "gitdir:~/src/mosaic451/"]
+	path = .gitconfig-mosaic451
 [pager]
 	branch = false
 [merge]
