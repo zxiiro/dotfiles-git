@@ -8,10 +8,8 @@
 	username = zxiiro
 [pull]
 	rebase = true
-[includeIf "gitdir:~/src/github.com/m451-dev/"]
-	path = .gitconfig-mosaic451
-[includeIf "gitdir:~/src/mosaic451/"]
-	path = .gitconfig-mosaic451
+[includeIf "gitdir:~/src/surveymonkey/"]
+	path = .gitconfig-surveymonkey
 [pager]
 	branch = false
 [merge]
