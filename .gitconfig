@@ -8,8 +8,10 @@
 	username = zxiiro
 [pull]
 	rebase = true
+[includeIf "gitdir:~/src/github.com/mntv-**/"]
+	path = .gitconfig-momentive
 [includeIf "gitdir:~/src/surveymonkey/"]
-	path = .gitconfig-surveymonkey
+	path = .gitconfig-momentive
 [pager]
 	branch = false
 [merge]
